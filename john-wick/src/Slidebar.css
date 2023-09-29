@@ -1,0 +1,35 @@
+/* Slidebar.css */
+
+/* Container for the slider */
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  /* Container for the slides */
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease; /* Add a sliding transition */
+  }
+  
+  /* Individual slide */
+  .slide {
+    min-width: calc(100% / 4); /* Divide the width by the number of images to show */
+    max-width: calc(100% / 4);
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px; /* Add spacing between slides */
+  }
+  
+  /* Images inside the slides */
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Optional: Add more styles as needed */
+  

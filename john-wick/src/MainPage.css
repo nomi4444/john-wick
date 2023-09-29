@@ -1,0 +1,67 @@
+/* MainPage.css */
+
+.main-page {
+  background-color: #083c74; /* Blue background color */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* 100% viewport height */
+  color: white; /* Text color for hero name and intro */
+}
+
+.hero {
+  text-align: center;
+}
+/* Add a transition to the "John Wick" heading */
+/* Add a sliding transition to the "John Wick" heading */
+.hero-name {
+  font-size: 44px; /* Customize the font size for the hero name */
+  font-weight: normal;
+  margin-top: 10px;
+  position: relative;
+  transition: font-size 0.3s ease, font-weight 0.3s ease, transform 0.3s ease; /* Add transitions for font-size, font-weight, and transform */
+}
+
+/* Apply a bolder font-weight, larger font-size, and sliding effect on hover */
+.hero-name:hover {
+  font-size: 48px; /* Adjust the font size for hover state */
+  font-weight: bold;
+  transform: translateX(10px); /* Slide the text 10 pixels to the right (adjust as needed) */
+}
+
+
+.hero-image {
+  width: 350px; /* Increase the width for a larger image */
+  height: 350px; /* Increase the height for a larger image */
+  border-radius: 50%; /* Make it a circle */
+  object-fit: cover; /* Maintain aspect ratio */
+  border: 5px solid white; /* Add a white border (customize as needed) */
+  margin: 20px auto; /* Add margin for spacing */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add margin to separate the icons from the image */
+}
+
+.social-icon {
+  text-align: center;
+  margin: 0 10px; /* Add margin between the social icons */
+  text-decoration: none;
+  color: white; /* Icon label color */
+}
+
+.social-icon img {
+  width: 30px; /* Adjust icon size as needed */
+  height: 30px; /* Adjust icon size as needed */
+  margin-bottom: 5px; /* Add margin below the icon */
+}
+
+.intro {
+  font-size: 18px; /* Customize the font size for the intro text */
+  max-width: 600px; /* Limit the width of the text for better readability */
+  margin-top: 20px; /* Add margin at the top of the intro text */
+}

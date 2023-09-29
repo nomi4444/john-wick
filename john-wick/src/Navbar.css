@@ -1,0 +1,37 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: black; /* Set the background color to black */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Add padding as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-heading {
+  font-size: 24px; /* Customize the font size */
+}
+
+.navbar-button {
+  background-color: #007bff; /* Button background color (blue) */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none;
+  border-radius: 4px; /* Button border radius */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar-button:hover {
+  background-color: #0056b3; 
+}
+.main-page {
+  background-image: url('https://images3.alphacoders.com/103/1033561.jpg');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* No image repetition */
+  color: #fff; /* Text color (white) */
+  font-family: Arial, sans-serif; /* Specify your preferred font family */
+  padding: 20px; /* Add padding for content */
+}
